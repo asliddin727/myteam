@@ -1,0 +1,141 @@
+// PRIMARY BUTTONS STYLE START
+// PRIMARY BUTTON LIGHT STYLE START
+$border-size: .3rem;
+$border-style: solid;
+$border-primary-light-color: $white-color;
+$border-radius: 10rem;
+$button-primary-light-text-color: $white-color;
+$button-primary-light-bg-color: $sacramento-state-green;
+$button-text-size: 1.8rem;
+$button-font-semibold: 600;
+$button-padding-top: 1.1rem;
+$button-padding-right: 3.3rem;
+$button-padding-bottom: 1.1rem;
+$button-padding-left: 3.3rem;
+$button-transition: .3s ease-in-out;
+
+.button.primary-light{
+    border: $border-size $border-style $border-primary-light-color;
+    border-radius: $border-radius;
+    background-color: $button-primary-light-bg-color;
+    font-size: $button-text-size;
+    font-weight: $button-font-semibold;
+    color: $button-primary-light-text-color;
+    padding: $button-padding-top $button-padding-right $button-padding-bottom $button-padding-left;
+    transition: background-color $button-transition;
+}   
+
+// PRIMARY BUTTON LIGHT HOVER STYLE START
+$button-primary-light-hover-text-color: $dark-green;
+$button-primary-light-hover-bg-color: $white-color;
+$button-cursor-pointer: pointer;
+
+.button.primary-light:hover{
+    background-color: $button-primary-light-hover-bg-color;
+    color: $button-primary-light-hover-text-color;
+    cursor: $button-cursor-pointer;
+    transition: background-color $button-transition;
+}
+// PRIMARY BUTTON LIGHT HOVER STYLE END
+
+// PRIMARY BUTTON LIGHT ACTIVE STYLE START
+$button-primary-light-disabled: .25;
+$button-primary-light-disabled-bg-color: $dark-green;
+
+.button.primary-light:active{
+    background-color: $button-primary-light-disabled-bg-color;
+    color: $button-primary-light-text-color;
+    opacity: $button-primary-light-disabled;
+    transition: background-color $button-transition;
+}
+// PRIMARY BUTTON LIGHT ACTIVE STYLE END
+
+// PRIMARY BUTTON DARK STYLE START
+$border-primary-dark-color: $dark-green;
+$button-primary-dark-text-color: $dark-green;
+$button-primary-dark-bg-color: $white-color;
+
+.button.primary-dark{
+    border: $border-size $border-style $border-primary-dark-color;
+    border-radius: $border-radius;
+    background-color: $button-primary-dark-bg-color;
+    font-size: $button-text-size;
+    font-weight: $button-font-semibold;
+    color: $button-primary-dark-text-color;
+    padding: $button-padding-top $button-padding-right $button-padding-bottom $button-padding-left;
+    transition: background-color $button-transition;
+}  
+
+// PRIMARY BUTTON DARK HOVER STYLE START
+$button-primary-dark-hover-text-color: $white-color;
+$button-primary-dark-hover-bg-color: $dark-green;
+$button-cursor-pointer: pointer;
+
+.button.primary-dark:hover{
+    background-color: $button-primary-dark-hover-bg-color;
+    color: $button-primary-dark-hover-text-color;
+    cursor: $button-cursor-pointer;
+    transition: background-color $button-transition;
+}
+// PRIMARY BUTTON DARK STYLE END
+
+// PRIMARY BUTTON DARK ACTIVE STYLE START
+$button-primary-dark-disabled: .25;
+$button-primary-dark-disabled-bg-color: $white-color;
+$button-primary-dark-text-color: $dark-green;
+
+.button.primary-dark:active{
+    background-color: $button-primary-dark-disabled-bg-color;
+    color: $button-primary-dark-text-color;
+    opacity: $button-primary-dark-disabled;
+    transition: background-color $button-transition;
+}
+// PRIMARY BUTTON DARK ACTIVE STYLE END
+
+// PRIMARY BUTTONS STYLE END
+
+
+// SECONDARY BUTTONS LIGHT STYLE START
+$border-secondary-light-color: $white-color;
+$button-secondary-light-text-color: $dark-green;
+$button-secondary-light-bg-color: $white-color;
+
+.button.secondary-light{
+    border: $border-size $border-style $border-secondary-light-color;
+    border-radius: $border-radius;
+    background-color: $button-secondary-light-bg-color;
+    font-size: $button-text-size;
+    font-weight: $button-font-semibold;
+    color: $button-secondary-light-text-color;
+    padding: $button-padding-top $button-padding-right $button-padding-bottom $button-padding-left;
+    transition: background-color $button-transition;
+}   
+
+// PRIMARY BUTTON LIGHT HOVER STYLE START
+$border-secondary-light-hover-color: $rapture-blue;
+$button-secondary-light-hover-text-color: $dark-green;
+$button-secondary-light-hover-bg-color: $rapture-blue;
+$button-cursor-pointer: pointer;
+
+.button.secondary-light:hover{
+    border-color: $border-secondary-light-hover-color;
+    background-color: $button-secondary-light-hover-bg-color;
+    color: $button-secondary-light-hover-text-color;
+    cursor: $button-cursor-pointer;
+    transition: background-color border-color $button-transition;
+}
+// PRIMARY BUTTON LIGHT HOVER STYLE END
+
+// PRIMARY BUTTON LIGHT ACTIVE STYLE START
+$button-secondary-light-disabled: .25;
+$button-secondary-light-disabled-bg-color: $white-color;
+
+.button.secondary-light:active{
+    border-color: $border-secondary-light-color;
+    background-color: $button-secondary-light-disabled-bg-color;
+    color: $button-secondary-light-text-color;
+    opacity: $button-secondary-light-disabled;
+    transition: background-color $button-transition;
+}
+// PRIMARY BUTTON LIGHT ACTIVE STYLE END
+// SECONDARY BUTTONS LIGHT STYLE END

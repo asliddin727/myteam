@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+.container {
+  width: 111rem;
+  margin: 0 auto;
+}
+
+.button.primary-light {
+  border: 0.3rem solid #fff;
+  border-radius: 10rem;
+  background-color: #012f34;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1.1rem 3.3rem 1.1rem 3.3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.primary-light:hover {
+  background-color: #fff;
+  color: #002529;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.primary-light:active {
+  background-color: #002529;
+  color: #fff;
+  opacity: 0.25;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.primary-dark {
+  border: 0.3rem solid #002529;
+  border-radius: 10rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #002529;
+  padding: 1.1rem 3.3rem 1.1rem 3.3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.primary-dark:hover {
+  background-color: #002529;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.primary-dark:active {
+  background-color: #fff;
+  color: #002529;
+  opacity: 0.25;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.secondary-light {
+  border: 0.3rem solid #fff;
+  border-radius: 10rem;
+  background-color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #002529;
+  padding: 1.1rem 3.3rem 1.1rem 3.3rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button.secondary-light:hover {
+  border-color: #79c8c7;
+  background-color: #79c8c7;
+  color: #002529;
+  cursor: pointer;
+  transition: background-color border-color 0.3s ease-in-out;
+}
+
+.button.secondary-light:active {
+  border-color: #fff;
+  background-color: #fff;
+  color: #002529;
+  opacity: 0.25;
+  transition: background-color 0.3s ease-in-out;
+}/*# sourceMappingURL=main.css.map */
