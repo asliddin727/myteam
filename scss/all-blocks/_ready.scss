@@ -1,0 +1,29 @@
+.ready{
+    background-color: $light-color;
+    padding: 7.6rem 0;
+    position: relative;
+    .ready__inner{
+        width: 91.2rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        .title{
+            font-size: 4.8rem;
+            font-weight: 700;
+            line-height: 4.8rem;
+
+        }
+        .button{
+            margin-left: auto;
+        }
+    }
+    .ready__inner::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 20rem;
+        height: 14rem;
+        background: url(../../assets/images/group-6.png) no-repeat;
+    }
+}

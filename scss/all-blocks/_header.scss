@@ -1,0 +1,13 @@
+.header{
+    padding-top: 7.7rem;
+    .row{
+        display: flex;
+        align-items: center;
+        h1{
+            font-size: 4rem;
+            color: $white-color;
+            margin-right: 8rem;
+        }
+
+    }
+}

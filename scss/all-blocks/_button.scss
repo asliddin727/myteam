@@ -14,6 +14,10 @@ $button-padding-bottom: 1.1rem;
 $button-padding-left: 3.3rem;
 $button-transition: .3s ease-in-out;
 
+.button.right{
+    margin-left: auto;
+}
+
 .button.primary-light{
     border: $border-size $border-style $border-primary-light-color;
     border-radius: $border-radius;
@@ -53,7 +57,7 @@ $button-primary-light-disabled-bg-color: $dark-green;
 // PRIMARY BUTTON DARK STYLE START
 $border-primary-dark-color: $dark-green;
 $button-primary-dark-text-color: $dark-green;
-$button-primary-dark-bg-color: $white-color;
+$button-primary-dark-bg-color: transparent;
 
 .button.primary-dark{
     border: $border-size $border-style $border-primary-dark-color;

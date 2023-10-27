@@ -1,0 +1,19 @@
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    .nav__item{
+        .nav__link{
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-transform: lowercase;
+            color: $white-color;
+            transition: color .3s ease-in-out;
+        }
+        .nav__link:hover{
+            color: $light-color;
+            transition: color .3s ease-in-out;
+            cursor: pointer;
+        }
+    }
+}

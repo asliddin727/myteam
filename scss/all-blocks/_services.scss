@@ -1,0 +1,70 @@
+.services{
+    background-color: $sacramento-state-green;
+    padding: 14rem 0;
+    position: relative;
+    hr{
+        width: 5rem;
+        height: .4rem;
+        background-color: $light-color;
+        border: none;
+        margin-bottom: 5.4rem;
+    }
+    .services__inner{
+        display: flex;
+        align-items: flex-start;
+        .services__title{
+            width: 44.5rem;
+            font-size: 4.8rem;
+            font-weight: 700;
+            line-height: 4.8rem;
+            color: $white-color;
+        }
+        .services__list{
+            width: 54rem;
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 3.2rem;
+            .services__item{
+                position: relative;
+                display: flex;
+                gap: 3.9rem;
+                .services__img::before{
+                    content: "";
+                    position: absolute;
+                    width: 5.6rem;
+                    height: 5.6rem;
+                    background-color: $police-blue;
+                    border-radius: 50%;
+                    bottom: 2rem;
+                    left: 2rem;
+                    opacity: .5;
+                }
+                .services__desc{
+                    h4{
+                        font-size: 2.8rem;
+                        color: $light-color;
+                        line-height: 2.8rem;
+                        font-weight: 700;
+                        margin-bottom: 1.6rem;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        line-height: 2.5rem;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .services__inner::after{
+        content: "";
+        position: absolute;
+        right: -14.4rem;
+        bottom: 0;
+        width: 24.4rem;
+        height: 24.4rem;
+        background: url(../../assets/images/group-3.png) no-repeat;
+    }
+}

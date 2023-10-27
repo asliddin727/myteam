@@ -9,8 +9,21 @@
 html{
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-body {
+body{
+  background-color: $midnight-color;
   font-family: 'Livvic', sans-serif;
 }
+
+a{
+  text-decoration: none;
+}
+
+ul,
+ol{
+  list-style: none;
+}
+
+
