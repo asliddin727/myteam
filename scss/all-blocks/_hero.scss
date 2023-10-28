@@ -53,5 +53,51 @@
 
 }
 
+// ABOUT HERO STYLE START
+.about__hero{
+    position: relative;
+    padding: 11.5rem 0;
+    .about__raw{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        .title{
+            width: 35rem;
+            font-size: 6.4rem;
+            font-weight: 700;
+            color: $white-color;
+            text-transform: capitalize;
+            line-height: 10rem;
+        }
+        .description{
+            width: 73rem;
+            margin-left: auto;
+            hr{
+                width: 5rem;
+                height: .4rem;
+                background-color: $light-color;
+                border: none;
+                margin-bottom: 3.7rem;
+            }
+            p{
+                font-size: 1.8rem;
+                font-weight: 600;
+                line-height: 2.8rem;
+                color: $white-color;
+            }
+        }
+    }
+    .about__raw::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 10rem;
+        height: 20rem;
+        background: url(../../assets/images/about/group-1.png) no-repeat;
+    }
+    
+}
+// ABOUT HERO STYLE END
 
 
