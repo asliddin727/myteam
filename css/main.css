@@ -22,7 +22,6 @@
 }
 
 .button.primary-light {
-  display: none;
   border: 0.3rem solid #fff;
   border-radius: 10rem;
   background-color: transparent;
@@ -125,7 +124,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-  .button.right {
+  .button.primary-light {
     display: none;
   }
 }
