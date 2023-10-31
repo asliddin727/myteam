@@ -9,8 +9,7 @@ $border-bottom-style: solid;
 $border-bottom-color: $white-color;
 $outline-bottom-color: $rapture-blue;
 $textaera-padding-left: 1.4rem;
-$textaera-padding-bottom: 1.7rem;
-$textarea-font-size: 1.5rem;
+$textarea-font-size: 1.8rem;
 $textarea-font-weight: 600;
 $textarea-line-height: 2.5rem;
 $textarea-letter-spacing: -0.012rem;
@@ -19,34 +18,32 @@ $textarea-bg-color: transparent;
 $textarea-opacity: .6;
 $textare-resize: none;
 
-.textarea{
+.textarea,
+.form__input{
     border: $border-none;
-    outline: $rapture-blue;
+    outline-color: $outline-bottom-color;
     border-bottom: $border-bottom-size $border-bottom-style $border-bottom-color;
+    outline: $outline-bottom-color;
     padding-left: $textaera-padding-left;
     padding-bottom: $textaera-padding-bottom;
     background: $textarea-bg-color;
-    outline: $textarea-hover-border-bottom-color;
     font-size: $textarea-font-size;
     font-weight: $textarea-font-weight;
     line-height: $textarea-line-height;
     letter-spacing: $textarea-letter-spacing;
     color: $textarea-text-color;
-    resize: $textare-resize;
+    resize: none;
+}
+
+// FORM INPUT AND TEXTAREA HOVER STYLEN START
+$border-bottom-hover-color: $rapture-blue;
+
+.form__input:hover,
+.textarea:hover{
+    border-bottom: $border-bottom-size $border-bottom-style $border-bottom-hover-color;
 }
 
 // FORM TEXTAREA ERROR STYLE START
-$textarea-error-placeholder: $light-color;
-$border-bottom-error-color: $light-color;
-
-.textarea.error{
-    border-bottom: $border-bottom-size $border-bottom-style $border-bottom-error-color;
-    .textarea.error[placeholder]{
-        color: $textarea-error-placeholder;
-    }
-}
-
-
 
 // FORM TEXTAREA ERROR STYLE END
 // FORM STYLE END

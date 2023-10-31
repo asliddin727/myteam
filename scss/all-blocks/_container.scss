@@ -2,3 +2,16 @@
     width: 111rem;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 68.9rem;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 32.7rem;
+    }
+}

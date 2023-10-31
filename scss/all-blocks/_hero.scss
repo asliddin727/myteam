@@ -101,3 +101,20 @@
 // ABOUT HERO STYLE END
 
 
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 375px){
+    
+    .header{
+        .nav__list,
+        button{
+            display: none;
+        }
+        .menu__bar{
+            display: block;
+        }
+    }
+}

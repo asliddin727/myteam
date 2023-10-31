@@ -8,6 +8,25 @@
             color: $white-color;
             margin-right: 8rem;
         }
+    }
+    .menu__bar{
+        display: none;
+    }
+}
 
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 375px){
+    
+    .header{
+        .nav__list,
+        button{
+            display: none;
+        }
+        .menu__bar{
+            display: block;
+        }
     }
 }

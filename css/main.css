@@ -374,31 +374,39 @@
   background: url(../../assets/images/group-3.png) no-repeat;
 }
 
-.textarea,
 .form__input {
   border: none;
-  outline: none;
+  outline: #79c8c7;
   border-bottom: 0.2rem solid #fff;
+  outline: #79c8c7;
   padding-left: 1.4rem;
   padding-bottom: 1.7rem;
-  background-color: transparent;
-}
-
-.textarea[placeholder],
-.form__input[placeholder] {
+  background: transparent;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 2.5rem;
   letter-spacing: -0.012rem;
   color: #fff;
-  opacity: 0.6;
+  resize: none;
 }
 
-.textarea.error {
-  border-bottom: 0.2rem solid #f67e7e;
+.textarea {
+  background-color: transparent;
+  height: 8.4rem;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.2rem solid #fff;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 1.4rem;
+  font-weight: 600;
 }
-.textarea.error .textarea.error[placeholder] {
-  color: #f67e7e;
+
+.form__input:hover,
+.textarea:hover {
+  border-bottom: 0.2rem solid #79c8c7;
 }
 
 .employees {
@@ -646,8 +654,8 @@
 }
 
 .contact {
-  padding: 12rem 0;
   position: relative;
+  margin: 12rem 0;
 }
 .contact .container {
   display: flex;
@@ -700,13 +708,36 @@
   line-height: 2.8rem;
 }
 .contact .container .contact__right {
-  width: 54.2rem;
+  width: 54rem;
   margin-left: auto;
+  display: flex;
+  align-items: flex-start;
 }
-.contact .container .contact__right form .form__input,
+.contact .container .contact__right form .form__input {
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
 .contact .container .contact__right form .textarea {
   width: 100%;
   margin-bottom: 2.4rem;
+}
+.contact .container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10rem;
+  height: 20rem;
+  background: url(../../assets/images/contact/group-1.png) no-repeat;
+}
+.contact .container::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -12rem;
+  width: 10rem;
+  height: 20rem;
+  background: url(../../assets/images/contact/group-2.png) no-repeat;
 }
 
 *,

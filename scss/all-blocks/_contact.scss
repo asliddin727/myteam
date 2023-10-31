@@ -51,38 +51,38 @@
             }
         }
         .contact__right{
-            width: 54.2rem;
+            width: 54rem;
             margin-left: auto;
+            display: flex;
+            align-items: flex-start;
             form{
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                .form__input,
+                .form__input{
+                    width: 100%;
+                    margin-bottom: 2.4rem;
+                }
                 .textarea{
                     width: 100%;
-                    font-size: 12rem;
+                    margin-bottom: 2.4rem;
                 }
             }
         }
     }
-}
-
-.container::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 10rem;
-    height: 20rem;
-    // background: url(assets/images/contact/group-1.png) no-repeat;
-    background-color: maroon;
-}
-.container::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 10rem;
-    height: 20rem;
-    background: url(../../assets/images/contact/group-2.png) no-repeat;
+    .container::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 10rem;
+        height: 20rem;
+        background: url(../../assets/images/contact/group-1.png) no-repeat;
+    }
+    .container::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 10rem;
+        height: 22.5rem;
+        background: url(../../assets/images/contact/group-2.png) no-repeat;
+    }
 }
