@@ -85,3 +85,190 @@
         background: url(../../assets/images/group-5.png) no-repeat;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .employees{
+        position: relative;
+        .employees__inner{
+            width: 57.3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 14rem 0;
+            .title{
+                width: 57.3rem;
+                font-size: 3.2rem;
+                font-weight: 700;
+                text-align: center;
+                line-height: 3.2rem;
+                color: $white-color;
+                margin-bottom: 4.8rem;
+                text-align: center;
+                span{
+                    color: $rapture-blue;
+                }
+            }
+            .employees__list{
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                gap: 3rem;
+                .employees__item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    .desc{
+                        font-size: 1.5rem;
+                        line-height: 2.5rem;
+                        font-weight: 600;
+                        color: $white-color;
+                        margin-bottom: 2.4rem;
+                    }
+                    .employee__name{
+                        font-size: 1.8rem;
+                        font-weight: 700;
+                        line-height: 2.8rem;
+                        color: $rapture-blue;
+                        margin-bottom: .2rem;
+                    }
+                    .job{
+                        font-size: 1.3rem;
+                        line-height: 1.8rem;
+                        color: $white-color;
+                        margin-bottom: 3.2rem;
+                        font-style: italic;
+                    }
+                    img{
+                        width: 6.2rem;
+                        height: 6.2rem;
+                        border-radius: 50%;
+                    }
+                }
+                .employees__item::before{
+                    content: "";
+                    position: absolute;
+                    top: -3.5rem;
+                    width: 6.7rem;
+                    height: 5.6rem;
+                    background: url(../../assets/images/“.png) no-repeat;
+                    z-index: -1;
+                }
+            }
+        }
+        .employees__inner::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 14.7rem;
+            height: 10rem;
+            background: url(../../assets/images/group-4.png) no-repeat;
+        }
+    
+        .employees__inner::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 10rem;
+            background: url(../../assets/images/group-5.png) no-repeat;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .employees{
+        position: relative;
+        .employees__inner{
+            width: 32.7rem;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 14rem 0;
+            .title{
+                width: 32.7rem;
+                font-size: 3.2rem;
+                font-weight: 700;
+                text-align: center;
+                line-height: 3.2rem;
+                color: $white-color;
+                margin-bottom: 4.8rem;
+                text-align: center;
+                span{
+                    color: $rapture-blue;
+                }
+            }
+            .employees__list{
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                gap: 3rem;
+                .employees__item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    .desc{
+                        font-size: 1.5rem;
+                        line-height: 2.5rem;
+                        font-weight: 600;
+                        color: $white-color;
+                        margin-bottom: 2.4rem;
+                    }
+                    .employee__name{
+                        font-size: 1.8rem;
+                        font-weight: 700;
+                        line-height: 2.8rem;
+                        color: $rapture-blue;
+                        margin-bottom: .2rem;
+                    }
+                    .job{
+                        font-size: 1.3rem;
+                        line-height: 1.8rem;
+                        color: $white-color;
+                        margin-bottom: 3.2rem;
+                        font-style: italic;
+                    }
+                    img{
+                        width: 6.2rem;
+                        height: 6.2rem;
+                        border-radius: 50%;
+                    }
+                }
+                .employees__item::before{
+                    content: "";
+                    position: absolute;
+                    top: -3.5rem;
+                    width: 6.7rem;
+                    height: 5.6rem;
+                    background: url(../../assets/images/“.png) no-repeat;
+                    z-index: -1;
+                }
+            }
+        }
+        .employees__inner::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 14.7rem;
+            height: 10rem;
+            background: url(../../assets/images/group-4.png) no-repeat;
+        }
+    
+        .employees__inner::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20rem;
+            height: 10rem;
+            background: url(../../assets/images/group-5.png) no-repeat;
+        }
+    }
+}

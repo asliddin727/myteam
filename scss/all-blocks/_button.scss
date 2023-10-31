@@ -19,6 +19,7 @@ $button-transition: .3s ease-in-out;
 }
 
 .button.primary-light{
+    display: none;
     border: $border-size $border-style $border-primary-light-color;
     border-radius: $border-radius;
     background-color: $button-primary-light-bg-color;
@@ -184,3 +185,11 @@ $button-plus-exit-transition: .3s ease-in-out;
     transition: background-color $button-plus-exit-transition;
 }
 // BUTTON PLUS AND EXIT STYLE END
+
+
+
+@media only screen and (max-width: 375px){
+    .button.right{
+        display: none;
+    }
+}

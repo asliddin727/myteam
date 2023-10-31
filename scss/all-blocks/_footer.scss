@@ -63,3 +63,114 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px){
+    .footer{
+        background-color: $dark-green;
+        .footer__inner{
+            padding: 4.8rem 0;
+            display: flex;
+            align-items: flex-start;
+            .footer__left{
+                margin-left: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+                .logo{
+                    font-size: 4rem;
+                    color: $white-color;
+                }
+            }
+            
+    
+            .footer__right{
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .social-media{
+                    display: flex;
+                    align-items: center;
+                    gap: 1.6rem;
+                    font-size: 2.4rem;
+                    a{
+                        color: $white-color;
+                        transition: color .3s ease-in-out;
+                    }
+                    a:hover{
+                        color: $light-color;
+                        transition: color .3s ease-in-out;
+                    }
+                }
+                span{
+                    position: absolute;
+                    bottom: 0;
+                    font-size: 1.5rem;
+                    line-height: 2.5rem;
+                    color: $white-color;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .footer{
+        background-color: $dark-green;
+        .footer__inner{
+            padding: 4.8rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            gap: 2.4rem;
+            .footer__left{
+                margin-left: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+                .logo{
+                    font-size: 4rem;
+                    color: $white-color;
+                }
+            }
+
+            .footer__center{
+                text-align: center;
+            }
+            
+    
+            .footer__right{
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .social-media{
+                    display: flex;
+                    align-items: center;
+                    gap: 1.6rem;
+                    font-size: 2.4rem;
+                    a{
+                        color: $white-color;
+                        transition: color .3s ease-in-out;
+                    }
+                    a:hover{
+                        color: $light-color;
+                        transition: color .3s ease-in-out;
+                    }
+                }
+                span{
+                    position: absolute;
+                    bottom: 0;
+                    font-size: 1.5rem;
+                    line-height: 2.5rem;
+                    color: $white-color;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
+

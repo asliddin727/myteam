@@ -30,3 +30,75 @@
         background: url(../../assets/images/about/group-4.png) no-repeat;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .client{
+        padding: 14rem 0;
+        position: relative;
+        background-color: $sacramento-state-green;
+        .raw{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                font-size: 3.2rem;
+                font-weight: 700;
+                line-height: 3.2rem;
+                color: $white-color;
+                text-align: center;
+                margin-bottom: 6.4rem;
+            }
+            .client__list{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6rem;
+            }
+        }
+        .raw::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20rem;
+            height: 20rem;
+            background: url(../../assets/images/about/group-4.png) no-repeat;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .client{
+        padding: 14rem 0;
+        position: relative;
+        background-color: $sacramento-state-green;
+        .raw{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                font-size: 3.2rem;
+                font-weight: 700;
+                line-height: 3.2rem;
+                color: $white-color;
+                text-align: center;
+                margin-bottom: 6.4rem;
+            }
+            .client__list{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6rem;
+            }
+        }
+        .raw::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20rem;
+            height: 20rem;
+            background: url(../../assets/images/about/group-4.png) no-repeat;
+        }
+    }
+}

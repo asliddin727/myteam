@@ -92,3 +92,110 @@
         background: url(../../assets/images/about/group-3.png) no-repeat;
     }
 }
+
+
+
+
+@media only screen and (max-width: 768px){
+    .directors{
+        position: relative;
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                font-size: 4.8rem;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: $white-color;
+                margin-bottom: 6.4rem;
+            }
+            .directors__list{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: baseline;
+                gap: 1.1rem;
+                .directors__list__item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 28.1rem;
+                    height: 25.3rem;
+                    padding: 3.2rem 2.4rem;
+                    background-color: $sacramento-state-green;
+                    margin-bottom: 7.6rem;
+                    img{
+                        width: 9.6rem;
+                        height: 9.6rem;
+                        margin-bottom: 1.6rem;  
+                    }
+                    .director__name,
+                    .director__title{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        color: $rapture-blue;
+                        line-height: 2.8rem;
+                        text-align: center;
+                    }
+                    .director__job,
+                    .director__social__media_desc{
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        line-height: 2.5rem;
+                        color: $white-color;
+                        text-align: center;
+                        font-style: italic;
+                    }
+                    .director__social__media_desc{
+                        width: 25.4rem;
+                        font-style: normal;
+                        text-align: center;
+                        margin-top: .8rem;
+                        margin-bottom: 2.4rem;
+                    }
+                    .social__media{
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        font-size: 2.4rem;
+                        a{
+                            color: $white-color;
+                            transition: color .3s ease-in-out;
+                        }
+                        a:hover{
+                            color: $light-color;
+                            transition: color .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+        .container::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10rem;
+            height: 20rem;
+            background: url(../../assets/images/about/group-2.png) no-repeat;
+        }
+        .container::after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 15rem;
+            height: 10rem;
+            background: url(../../assets/images/about/group-3.png) no-repeat;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 32.7rem;
+        margin: 0 auto;
+    }
+}
